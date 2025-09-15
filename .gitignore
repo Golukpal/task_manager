@@ -1,8 +1,36 @@
+
+# Go build artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.test
+*.out
+
+# Go modules workspace files
 go.work
 go.work.sum
 
+# Dependency directories (vendor/)
+vendor/
+
+# Environment files
 .env
 
+# Docker
 docker-compose.override.yml
+docker-compose.yml
 Dockerfile
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
